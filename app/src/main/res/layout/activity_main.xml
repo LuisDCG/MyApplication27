@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/indenti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:hint="ID"
+            android:textColorHint="#A9A9A9"
+            android:textColor="@color/black"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:hint="Nombre"
+            android:textColorHint="#A9A9A9"
+            android:textColor="@color/black"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:id="@+id/edad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:hint="Edad"
+            android:textColorHint="#A9A9A9"
+            android:textColor="@color/black"
+            android:inputType="text"
+            />
+
+        <Button
+            android:id="@+id/btninsertar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="Insertar"
+            android:backgroundTint="#0FFF00"
+            android:textSize="35dp"
+            />
+
+        <Button
+            android:id="@+id/btnbuscar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Buscar"
+            android:backgroundTint="#0FFF00"
+            android:textSize="35dp"
+            />
+
+        <Button
+            android:id="@+id/btnactualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Actualizar"
+            android:backgroundTint="#0FFF00"
+            android:textSize="35dp"
+            />
+
+        <Button
+            android:id="@+id/btneliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Eliminar"
+            android:backgroundTint="#0FFF00"
+            android:textSize="35dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
