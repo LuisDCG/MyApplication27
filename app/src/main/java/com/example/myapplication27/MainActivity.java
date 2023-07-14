@@ -49,26 +49,26 @@ public class MainActivity extends AppCompatActivity {
         Btn_Modificar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Actualizar("http://192.168.1.113/prue/actualizar.php");
+                Actualizar("http://192.168.123.220/prue/actualizar.php");
             }
         });
         Btn_Eliminar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Eliminar("http://192.168.1.113/prue/Eliminar.php?id=" + textid.getText().toString());
+                Eliminar("http://192.168.123.220/prue/Eliminar.php?id=" + textid.getText().toString());
             }
         });
         Btn_Agregar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Agregar("http://192.168.1.113/prue/insertar.php");
+                Agregar("http://192.168.123.220/prue/insertar.php");
             }
         });
 
         Btn_Buscar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Buscar("http://192.168.1.113/prue/buscar.php?id=" + textid.getText().toString());
+                Buscar("http://192.168.123.220/prue/buscar.php?id=" + textid.getText().toString());
             }
         });
 

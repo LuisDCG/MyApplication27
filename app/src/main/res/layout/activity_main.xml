@@ -16,7 +16,7 @@
             android:id="@+id/indenti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="20dp"
             android:hint="ID"
             android:textColorHint="#A9A9A9"
             android:textColor="@color/black"
